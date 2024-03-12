@@ -1,0 +1,83 @@
+.share {
+  width: 100%;
+  height: 170px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.37);
+  box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.37);
+}
+
+.shareWrapper {
+  padding: 10px;
+}
+
+.shareTop {
+  display: flex;
+  align-items: center;
+}
+
+.shareProfileImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.shareInput {
+  border: none;
+  width: 86.9%;
+  background: transparent;
+  border-bottom: 1px solid rgba(245, 245, 245, 0.815);
+  color: rgba(245, 245, 245, 0.815);
+}
+
+.shareInput::placeholder {
+  color: rgba(245, 245, 245, 0.578);
+}
+
+.shareInput:focus {
+  outline: none;
+}
+
+.shareHr {
+  margin: 20px;
+  border: 1px solid rgba(245, 245, 245, 0.815);
+  border-radius: 1px;
+}
+
+.shareBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.shareOptions {
+  display: flex;
+  margin-left: 20px;
+}
+
+.shareOption {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.shareIcon {
+  font-size: 18px;
+  margin-right: 3px;
+}
+
+.shareOptionText {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.shareButton {
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(245, 245, 245, 0.815);
+  font-weight: 500;
+  margin-right: 20px;
+  cursor: pointer;
+}
